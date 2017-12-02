@@ -3,5 +3,5 @@ project(aoc)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES day1.cpp)
-add_executable(day1 ${SOURCE_FILES})
+add_executable(day1 day1.cpp)
+add_executable(day2 day2.c)
